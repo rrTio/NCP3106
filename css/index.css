@@ -65,60 +65,6 @@ header {
   padding: 50px;
 }
 
-#btn_mp1 {
-  border-radius: 8px;
-  background-color: #c9c9c9;
-  color: black;
-  font-size: 16px;
-  cursor: pointer;
-  margin: 10px;
-  transition-duration: 0.4s;
-  border-color: #000000;
-  color: #000000;
-  width: 180px;
-  height: 60px;
-}
-
-#btn_mp1:hover {
-  background-color: dodgerblue;
-}
-
-#btn_mp2 {
-  border-radius: 8px;
-  background-color: #c9c9c9;
-  color: black;
-  font-size: 16px;
-  cursor: pointer;
-  margin: 10px;
-  transition-duration: 0.4s;
-  border-color: #000000;
-  color: #000000;
-  width: 180px;
-  height: 60px;
-}
-
-#btn_mp2:hover {
-  background-color: dodgerblue;
-}
-
-#btn_mp3 {
-  border-radius: 8px;
-  background-color: #c9c9c9;
-  color: black;
-  font-size: 16px;
-  cursor: pointer;
-  margin: 10px;
-  transition-duration: 0.4s;
-  border-color: #000000;
-  color: #000000;
-  width: 180px;
-  height: 60px;
-}
-
-#btn_mp3:hover {
-  background-color: dodgerblue;
-}
-
 #txtfooter {
   text-align: right;
   padding-right: 10px;
