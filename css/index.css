@@ -15,6 +15,12 @@ header {
   color: #ffffff;
   font-size: 30px;
   font-weight: bold;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 #myText {
@@ -59,6 +65,12 @@ header {
   color: #ffffff;
   padding: 10px;
   text-align: center;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 #myImage {
@@ -79,4 +91,10 @@ header {
   margin-right: -8px;
   background-color: #000000;
   color: #ffffff;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
