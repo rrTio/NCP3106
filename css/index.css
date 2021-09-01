@@ -91,6 +91,7 @@ header {
   margin-left: 10px;
   padding: 10px;
   text-align: left;
+  text-indent: 45px;
   width: 650px;
   float: left;
   bottom: 0px;
@@ -146,13 +147,13 @@ header {
 }
 
 #detailsAM1 {
-  font-size: 20px;
+  font-size: 18px;
   margin: auto;
   margin-left: 10px;
-  margin-top: 50px;
+  margin-top: 20px;
   padding: 10px;
   text-align: left;
-  width: 400px;
+  width: 550px;
   float: left;
   bottom: 0px;
 }
