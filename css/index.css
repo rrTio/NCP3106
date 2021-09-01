@@ -121,6 +121,7 @@ header {
 .personal {
   border-style: solid;
   border-radius: 10px;
+  box-shadow: -10px 10px 30px #222222;
   width: 980px;
   height: 350px;
   margin: auto;
