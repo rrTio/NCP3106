@@ -84,6 +84,24 @@ header {
   padding: 50px;
 }
 
+#moreDetails {
+  font-size: 17px;
+  margin: auto;
+  margin-top: -10px;
+  margin-left: 10px;
+  padding: 10px;
+  text-align: left;
+  width: 650px;
+  float: left;
+  bottom: 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 #txtfooter {
   text-align: right;
   padding-right: 10px;
@@ -103,17 +121,23 @@ header {
 .personal {
   border-style: solid;
   border-radius: 10px;
-  width: 1000px;
+  width: 980px;
   height: 350px;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 #imgAM {
   width: 207.36px;
   height: 311.04px;
-  border: 3px solid #000000;
+  border: 2px solid #000000;
   border-radius: 10px;
   float: left;
   margin-left: 15px;
@@ -121,14 +145,30 @@ header {
 }
 
 #detailsAM1 {
-  border-style: solid;
   font-size: 20px;
   margin: auto;
-  margin-top: 50px;
   margin-left: 10px;
+  margin-top: 50px;
   padding: 10px;
   text-align: left;
-  width: 300px;
+  width: 400px;
   float: left;
   bottom: 0px;
+}
+
+#webLink:link {
+  color: dodgerblue;
+  text-decoration: none;
+}
+#webLink:visited {
+  color: dodgerblue;
+  text-decoration: none;
+}
+#webLink:hover {
+  color: dodgerblue;
+  text-decoration: underline;
+}
+#webLink:active {
+  color: dodgerblue;
+  text-decoration: underline;
 }
