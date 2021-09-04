@@ -2,6 +2,7 @@
 <link rel="stylesheet" href="css\index.css" />
 <link rel="stylesheet" href="css\scrollbar.css" />
 <link rel="stylesheet" href="css\buttons.css" />
+<link rel="stylesheet" href="css\cards.css" />
 <script type="text/javascript" src="scripts/index.js"></script>
 
 <head>
@@ -57,23 +58,41 @@
     <p id="headTitle"><font face = "orbitron">MACHINE PROBLEMS</font></p>
 
     <div class = "machineProblems1 center">
-        <form id="formMP1" action="https://rrtio.github.io/BIO-NOTE/" target="_blank">
-          <button id="btn_mp1">
-            <i class="fa fa-github"><font face = "orbitron"><b>MP1</b></i></font>
-          </button>
-        </form>
 
-        <form action="https://rrtio.github.io/BIO-NOTE-WITH-CSS/" target="_blank">
-          <button id="btn_mp2">
-            <i class="fa fa-github"><font face = "orbitron"><b>MP2</b></i></font>
-          </button>
-        </form>  
+      <div class="cardMP1">
+        <center>
+          <img src="images/MP1Image.JPG">
+          <form id="formMP1" action="https://rrtio.github.io/BIO-NOTE/" target="_blank">
+            <button id="btn_mp1">
+              <i class="fa fa-github"><font face = "orbitron"><b>MP1</b></i></font>
+            </button>
+          </form>
+        </center>  
+      </div>
 
-        <form>
-          <button id="btn_mp3" onclick="MP3(); return false;">
-            <i class="fa fa-github"><font face = "orbitron"><b>MP3</b></i></font>
-          </button>
-        </form>
+      <div class="cardMP2">
+        <center>
+          <img src="images/MP2Image.JPG">
+          <form action="https://rrtio.github.io/BIO-NOTE-WITH-CSS/" target="_blank">
+            <button id="btn_mp2">
+              <i class="fa fa-github"><font face = "orbitron"><b>MP2</b></i></font>
+            </button>
+          </form>  
+        </center>
+      </div>
+
+      <div class="cardMP3">
+        <center>
+          <img src="images/MP3Image.JPG">
+          <form>
+            <button id="btn_mp3" onclick="MP3(); return false;">
+              <i class="fa fa-github"><font face = "orbitron"><b>MP3</b></i></font>
+            </button>
+          </form>
+        </center>
+          
+      </div>
+
     </div>
   </body>
 
