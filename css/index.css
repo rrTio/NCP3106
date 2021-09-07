@@ -4,16 +4,15 @@ html{
 
 ul {
   list-style-type: none;
-  margin-top: 12px;
-  margin-bottom: -10px;
   padding: 0;
-  float: right  
+  float: right;
+  font-size: 15px;
 }
 
 a{
 text-decoration: none;
 color: #ffffff;
-margin-right: 15px;
+margin-right: 20px;
 text-align:center;
 }
 
@@ -21,9 +20,14 @@ li {
   display: inline;
 }
 
-#txtPortfolio{
+a:hover{
+  text-decoration: underline;
+  color: #ecc032;
+}
+
+#txtPortfolio {
   float: left;
-  margin-left: 15px;
+  margin-left: 8px;
   font-size: 30px;
   text-decoration: none;
   color: #ffffff;
@@ -53,6 +57,13 @@ li {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+#webLogo{
+  float: left;
+  width: 2%;
+  height: 2%;
+  margin-left: 15px;
 }
 
 #myImage {
