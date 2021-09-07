@@ -16,6 +16,10 @@ margin-right: 20px;
 text-align:center;
 }
 
+abbr{
+  text-decoration: none;
+}
+
 li {
   display: inline;
 }
