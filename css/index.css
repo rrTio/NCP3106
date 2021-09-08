@@ -17,7 +17,6 @@ text-align:center;
 }
 
 #NavMenu:hover{
-  text-decoration: underline;
   color: #ecc032;
 }
 
@@ -30,6 +29,7 @@ li {
 }
 
 #txtPortfolio {
+  -webkit-text-stroke: 1px #ecc032;
   float: left;
   margin-left: 8px;
   font-size: 30px;
