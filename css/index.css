@@ -9,11 +9,16 @@ ul {
   font-size: 15px;
 }
 
-a{
+#NavMenu{
 text-decoration: none;
 color: #ffffff;
 margin-right: 20px;
 text-align:center;
+}
+
+#NavMenu:hover{
+  text-decoration: underline;
+  color: #ecc032;
 }
 
 abbr{
@@ -24,17 +29,16 @@ li {
   display: inline;
 }
 
-a:hover{
-  text-decoration: underline;
-  color: #ecc032;
-}
-
 #txtPortfolio {
   float: left;
   margin-left: 8px;
   font-size: 30px;
   text-decoration: none;
   color: #ffffff;
+}
+
+#txtPortfolio:hover{
+  color:#ecc032;
 }
 
 .me {
@@ -45,6 +49,16 @@ a:hover{
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+#viewCode{
+  color:black;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+#viewCode:hover{
+  text-decoration: underline;
 }
 
 #myText {
