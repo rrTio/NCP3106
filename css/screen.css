@@ -38,6 +38,7 @@ header{
   padding-top: 25px;
   justify-content: center;
   align-items: center; 
+  background-color: aquamarine;
   border: 2px solid black;
 }
 
