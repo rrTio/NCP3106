@@ -26,6 +26,7 @@ header{
   height: 650px;
   display: flex;
   justify-content: center;
+  background-color: aqua;
   align-items: center; 
   border: 2px solid black;
 }
